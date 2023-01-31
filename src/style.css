@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(227, 234, 240);
+}
+
+header h1 {
+  font-size: 50px;
+  padding: 3%;
+  color: rgb(0, 0, 0);
+  margin-left: 50px;
+}
+
+.scores-table {
+  background-color: rgb(227, 234, 240);
+  width: 30%;
+  float: left;
+  margin-left: 15%;
+}
+
+.score-head {
+  display: flex;
+  align-items: center;
+}
+
+.score-head h2 {
+  padding: 0 20px 0 18%;
+  font-size: 32px;
+}
+
+.refresh {
+  width: auto;
+  height: auto;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+
+.table {
+  align-items: center;
+  border: 2px solid black;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 10%;
+}
+
+.table tr td {
+  margin-left: 20px;
+}
+
+table tr:nth-child(even) {
+  background-color: #bbbebe;
+}
+
+table tr:nth-child(odd) {
+  background-color: #7c7e7d;
+}
+
+.input-data {
+  position: absolute;
+  margin-left: 40%;
+  width: 50%;
+}
+
+.input-data form {
+  align-self: center;
+  margin-left: 120px;
+}
+
+.input-data form input {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 200px;
+  background-color: #eef1f1;
+}
+
+.input-data h2 {
+  padding: 0 20px 0 18%;
+  font-size: 32px;
+}
+
+.submit-button {
+  margin-left: 155px;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.refresh:hover,
+.submit-button:hover {
+  cursor: pointer;
+  color: #000;
+  background-color: #7c7e7d;
+}
