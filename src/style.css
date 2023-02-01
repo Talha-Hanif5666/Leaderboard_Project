@@ -41,9 +41,13 @@ header h1 {
   margin-bottom: 10%;
 }
 
-.table tr td {
-  margin-left: 20px;
+tr{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 30px;
 }
+
 
 table tr:nth-child(even) {
   background-color: #bbbebe;
