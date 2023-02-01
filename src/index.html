@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leaderboard</title>
+    
+    
 </head>
 <body>
     <header><h1>Leaderboard</h1></header>
@@ -14,48 +16,21 @@
             <button class="refresh">Refresh</button>
         </div>
         <table class="table">
-            <tr>
-                <th>Name</th>
-                <th>Score</th>
-              </tr>
-              <tr>
-                <td>Name:</td>
-                <td>100</td>
-              </tr>
-              <tr>
-                <td>Name:</td>
-                <td>66</td>
-              </tr>
-              <tr>
-                <td>Name:</td>
-                <td>33</td>
-              </tr>
-              <tr>
-                <td>Name:</td>
-                <td>100</td>
-              </tr>
-              <tr>
-                <td>Name:</td>
-                <td>66</td>
-              </tr>
-              <tr>
-                <td>Name:</td>
-                <td>33</td>
-              </tr>
-              
+            <tbody class="table-container">
+            </tbody>
         </table>
     </div>
 
     <div class="input-data">
         <h2>Add your score</h2>
-        <form action="#">
-            <input type="text" name="name" placeholder="Your name">
+        <form class="form" action="#">
+            <input class="name" type="text" name="name" placeholder="Your name" required>
             <br>
-            <input type="text" name="score" placeholder="Your score">
+            <input class="score" type="number" name="score" placeholder="Your score" required>
             <br>
             <button class="submit-button">Submit</button>
         </form>
     </div>
-    
+    <script type="module" src="index.js"></script>
 </body>
 </html>
