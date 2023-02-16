@@ -8,7 +8,7 @@ getScores();
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
-  await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/kN0uEuCAtmzgUqRYuCdv/scores/', {
+  await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/:Sc5sWqEYzJUlOl6Y7IlD/scores/', {
     method: 'POST',
     body: JSON.stringify({
       user: player.value,
